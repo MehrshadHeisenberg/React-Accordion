@@ -31,16 +31,16 @@ const accordionContent = [
 function Box() {
   return (
     <div className="p-10 z-10 bg-white  shadow-xl rounded-lg text-dark-purple w-[90%] sm:w-[36rem]">
-      <div className="flex items-center gap-5 mb-8">
+      <div className="flex items-center gap-5 mb-8 font-worksans">
         <IconStar className="w-6 h-6 lg:w-10 lg:h-10" />
-        <h1 className="lg:text-6xl text-3xl font-worksans">FAQs</h1>
+        <h1 className="lg:text-6xl text-3xl font-bold">FAQs</h1>
       </div>
       <Accordion type="single" collapsible className="w-[full]">
         {accordionContent.map((content) => (
           <AccordionItem
             value={`item-${content.title}`}
             key={content.title}
-            className="border-b-light-pink"
+            className="font-bold border-b-light-pink"
           >
             <AccordionTrigger className="font-semibold text-sm md:text-lg">
               {content.title}

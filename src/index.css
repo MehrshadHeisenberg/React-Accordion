@@ -6,19 +6,19 @@
   @font-face {
     font-family: "WorkSans";
     font-weight: 400;
-    src: url("../../public/fonts/WorkSans-Regular.ttf") format("ttf");
+    src: url("../../public/fonts/WorkSans-Regular.ttf") format(truetype);
   }
 
   @font-face {
     font-family: "WorkSans";
     font-weight: 600;
-    src: url("../../public/fonts/WorkSans-SemiBold.ttf") format("ttf");
+    src: url("../../public/fonts/WorkSans-SemiBold.ttf") format(truetype);
   }
 
   @font-face {
     font-family: "WorkSans";
     font-weight: 700;
-    src: url("../../public/fonts/WorkSans-Bold.ttf") format("ttf");
+    src: url("../../public/fonts/WorkSans-Bold.ttf") format(truetype);
   }
 
   :root {
